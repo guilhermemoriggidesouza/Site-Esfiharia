@@ -1,0 +1,175 @@
+body{
+    font-family: 'Roboto';   
+}
+.back{
+    background-color: rgba(0,0,0,0.2);
+    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+.back-novo{
+    background-color: rgba(78, 1, 1, 1);
+    -moz-transition: all 1s;
+	-webkit-transition: all 1s;
+    transition: all 1s;
+   
+}
+.abuh{
+    background-image: url(imagens/abuhback.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.macaco{
+    opacity: 0;
+    transform: translate3d(-90%, 0, 500px);
+    -moz-transition: all 1s;
+	-webkit-transition: all 1s;
+    transition: all 1s;
+   
+}
+.macaco-novo{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+.big{
+    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.big:hover{
+    transform: scale(1.1);
+}
+.fundo{
+    color: rgb(204, 201, 3);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(imagens/background.png);
+}
+hr {
+    width:90%;
+    height:10px;  
+    border-width: 0;
+    background-size: cover;
+    background: transparent url(imagens/linha.png) center no-repeat;
+}
+.anime{
+    opacity: 0;
+    transform: translate3d(0,-200px, -500px);
+    -moz-transition: all 2s;
+	-webkit-transition: all 2s;
+	transition: all 2s;
+}
+.anime-start{
+    opacity:1;
+    transform: translate3d(0,0,0);
+}
+a:link{
+    color: rgb(204, 201, 3);
+
+}
+a:visited {
+    color: rgb(204, 201, 3);
+	text-decoration:none;
+}
+a:active {
+    color: rgb(204, 201, 3);
+	text-decoration: none;
+}
+a:hover{
+    color: rgb(204, 201, 3);
+    font-size:150%; 
+}
+a.link:link{
+    color:rgb(41, 41, 40);
+
+}
+a.link:visited {
+    color: rgb(41, 41, 40);
+	text-decoration:none;
+}
+a.link:active {
+    color: rgb(41, 41, 40);
+	text-decoration: none;
+}
+a.link:hover{
+    color: rgb(41, 41, 40);
+    font-size:150%; 
+}
+a.eu:link{
+    color:rgb(255, 255, 255);
+    font-size:90%;
+}
+a.eu:visited {
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    font-size:90%;
+}
+a.eu:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size:90%;
+}
+a.eu:hover{
+    color: rgb(255, 255, 255);
+    font-size:80%; 
+}
+.imagem{
+    max-width: 300px;
+    max-height: 200px;
+    width:200%;
+    height:100%;
+    
+}
+.meno{
+    max-width: 64px;
+    max-height: 64px;
+}
+.rotate {
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.rotate:hover{
+        -webkit-transform: rotateZ(-5deg);
+        -ms-transform: rotateZ(-5deg);
+        transform: rotateZ(-5deg);
+}
+.zoom {
+	overflow: hidden;
+}
+
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+a.item-:link{
+    color: rgb(255, 255, 254);
+
+}
+a.item-link:visited {
+    color:rgb(255, 255, 254);
+	text-decoration:none;
+}
+a.item-link:active {
+    color: rgb(255, 255, 254);
+	text-decoration: none;
+}
+a.item-link:hover{
+    color:  rgb(255, 255, 254);
+    font-size:150%; 
+}
+.arabe{
+    font-family: 'XXII ARABIAN-ONENIGHTSTAND';
+}
